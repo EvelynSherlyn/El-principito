@@ -1,0 +1,307 @@
+/** FUENTES */
+.Titulo {
+    font-family: 'Titulo'; 
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.Especial {
+    font-family: 'Especial';
+    font-size:x-large;
+}
+.Texto {
+    font-family: 'Texto';
+    font-size: larger;
+}
+
+/** GENERAL */
+body {
+    background-image: url(../pictures/Descargados/galaxiaBajaOpacidad.png);
+    background-color: rgb(7, 3, 14);
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.cuerpo {
+    width: 80vw;
+    height: 250vh;
+    background-color: rgb(87, 87, 165);
+    background: linear-gradient(rgb(87, 87, 165), rgb(94, 80, 156));
+}
+.footer {
+    width: 80vw;
+    height: 15vh;
+    background-color: rgb(40, 37, 88);
+    border: 3px solid rgb(89, 82, 153);
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(89, 82, 153);
+    color: #d2d9ea;
+}
+p, i {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+hr {
+    margin-top: 10%;
+
+}
+table {
+    color: rgb(255, 255, 255);
+    background-color: none;
+    width: 75%;
+    display: flex;
+    font-family: 'Texto';
+    font-size: large;
+    border:2px solid rgb(255, 255, 255);
+}
+table tr td {
+    padding: 5%;
+}
+/** DIVS GENERALES*/
+.cabezera {
+    background-image: url(../pictures/ElPrincipitoBanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15%; width: 100%;
+    background-color: #030c21;
+    float: left;
+}
+#cabezeraChiquito {
+    background-image: url(../pictures/ElPrincipitoBanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 23.5%; width: 100%;
+    background-color: #030c21;
+    float: left;
+}
+.menu {
+    background-color: rgb(40, 37, 88);
+    height: 5%; 
+    width: 100%;
+    border: 3px solid rgb(89, 82, 153);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    float: left;
+}
+.contenedor{
+    float: left;
+}
+.contenedorDoble {
+    height: 25%;
+    width: 100%;
+    float: left;
+}
+.contenedorTriple {
+    height: 25%;
+    width: 95%;
+    margin-left: 5%;
+    float: left;
+}
+.dobleVertical {
+    height: 20%;
+    width: 100%;
+    float: left;
+}
+.Linea {
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0%;
+    height: 5px;
+    width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.espaciado {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.separador {
+    margin: 0%;
+    margin-top: 10%;
+    padding: 0%;
+    height: 5px;
+    width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.footerEspacio {
+    margin-left: 10%;
+    margin-top: 2%;
+    float: left;
+}
+/** DIVS ESPECIFICOS*/
+
+.footerEspacioContacto {
+    margin-left: 30%;
+    margin-top: 2%;
+    float: left;
+}
+.Uno {
+    height: 100%; width: 40%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.Dos {
+    height: 100%; width: 60%;
+    vertical-align: top;
+    float: left;
+    margin-top: 5%;
+}
+.Tres {
+    height: 100%; width: 60%;
+    align-items: center;
+    align-content: center;
+    float: left;
+}
+.Cuatro {
+    height: 100%; width: 40%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.UnoTriple {
+    height: 100%; width: 30%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.UnoVertical {
+    height: 30%; width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.DosVertical {
+    height: 59.5%; width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.Video {
+    float: left;
+    background-color: none;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.UnoImagen {
+    height: 100%; width: 40%;
+    vertical-align: top;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.DosImagen {
+    height: 100%; width: 40%;
+    vertical-align: top;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.bordeTabla {
+    border:5px dotted rgb(255, 255, 255);
+}
+
+/** CLASES ESPECIFICAS */
+.MargenesPrimerTexto {
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.MargenesSegundoTexto {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.MargenesTerceroTexto {
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-left: 8%;
+}
+.MargenCentral {
+    margin: 0 15% 0 15%;
+}
+.bordeFoto {
+    border: 5px inset white;
+}
+.bordeSimple {
+    border: 2px solid white;
+}
+.textoGigante {
+    font-size: xx-large;
+}
+.lineaP{
+    margin: 0%;
+    text-align: center;
+}
+.MargenPaArriba {
+    margin-top: 40%;
+}
+
+/** ID */
+#cuerpoPeque {
+    width: 80vw;
+    height: 160vh;
+    background-color: rgb(87, 87, 165);
+    background: linear-gradient(rgb(87, 87, 165), rgb(94, 80, 156));
+}
+#menuChiquio {
+    background-color: rgb(40, 37, 88);
+    height: 7.7%; 
+    width: 100%;
+    border: 3px solid rgb(89, 82, 153);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    float: left;
+}
+#formulario {
+    height: 30%; width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+#LineaFormulario {
+    margin: 0%;
+    margin-top: 5%;
+    padding: 0%;
+    height: 5px;
+    width: 100%;
+    float: left;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+#colorOscuro {
+    color: #060620af;
+}
